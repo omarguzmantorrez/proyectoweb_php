@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+
+#banner {
+    background-image: url('../img/banner_bg.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+section {
+
+    text-align: center;
+
+}
+
+
+
+img {
+    width: 20%;
+}
+
+h2 {
+    display: inline;
+}
+
+a{
+    display: block;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    display: inline;
+}
+
+/*Contenedores padres y contenedores hijos
+padres ul hijo li
+
+Aplicamos cambios en la clase .cambio-inline*/
+
+.cambio-inline li {
+    display: inline;
+}
+
+.cambio-inline li:hover {
+    color: rgb(42, 165, 73);
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+#imagenchau:hover {
+    display: none;
+}
