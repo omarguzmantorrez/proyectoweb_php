@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+
+ /* CSS para el header */
+.header {
+    min-height: 14vh;
+    background-color: rgb(50, 182, 233);
+    padding: 0.5rem;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: translateX(-5px);
+}
+
+.navegacion {
+
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.listado {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    color: white;
+    font-size: 1.3em;
+    display: flex;
+    list-style: none;
+    padding: 0.5rem 1.5rem;
+}
+
+.item:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#itemNegro {
+    background-color: black;
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(50, 182, 233);
+}
+
+
+
+/* Main */
+
+
+
+.main {
+    margin-top: 0;
+    vertical-align: middle;
+    background-image: url('../imagenes/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    /*Centrar el texto */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: auto;
+}
+
+
+
+.tituloPrincipal {
+    color: white;
+    font-size: 4em;
+    margin-bottom: 1rem;
+}
+
+.tituloSecundario {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 1rem;
+
+}
+
+.botonRegistrarse {
+    background-color: rgb(34, 163, 165);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 1.5rem; 
+    font-weight: 500;
+    color: white;
+    border: 0.5px solid white;
+    transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.botonRegistrarse:hover {
+    cursor: pointer;
+    box-shadow:4px 4px 10px rgba(255, 255, 255, 0.5);
+    transform: translateY(4px);
+}
+/* Secciones */
+
+    .seccionBuscador {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color:  rgb(50, 182, 233);
+        display: flex; 
+        flex-direction: column; 
+        /*Centrar el texto */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tituloSeccion {
+
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 500px;
+        margin-bottom: 1rem;
+
+        
+    }
+
+    .buscador {
+
+        border-radius: 25px;
+        border: 2px solid white;
+        font-size: 20px;
+        height: 50px;
+        padding: 0px 20px;
+        width: 500px;
+        
+    }
+
+    .botonBuscar {
+
+        margin-left: 20px;
+        border: 0.5px solid white;
+        font-size: 20px;
+        padding: 1rem; 
+        font-weight: 500;
+        border-radius: 50px;
+        background-color:  rgb(34, 163, 165);
+        color: white;
+        width: 120px;
+        transition: box-shadow 0.3s, transform 0.2s;
+    }
+
+    .botonBuscar:hover {
+        cursor: pointer;
+        box-shadow:4px 4px 10px rgba(255, 255, 255, 0.5);
+        transform: translateY(4px);
+    }
+
+
+    .seccionTendencias {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color:  rgb(19, 62, 238);
+
+    }
+
+    #T {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedorPeliculas {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .pelicula {
+        margin: 2px;
+        padding: 40px;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .anteriorSiguiente {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .anteriorSiguiente input {
+        margin: 10px;
+    }
+
+    .seccionAclamadas {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color:  rgb(19, 62, 238);
+    }
+
+        /* Footer */
+        
+    footer {
+        min-height: 14vh;
+        background-color: rgb(50, 182, 233);
+        padding: 0.5rem;
+        width: 100%;
+        z-index: 999;
+    }
+
+
+    .navegacionF {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+
+    }
+    .listaFooter {
+        display: flex;
+        align-items: center;
+    }
+
+
